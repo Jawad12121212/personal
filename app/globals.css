@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+    font-family: "Saans";
+    src: url("/fonts/saans.woff2"), format("woff2");
+  }
+  @font-face {
+    font-family: "Mono";
+    src: url("/fonts/mono.ttf"), format("ttf");
+  }
+  @font-face {
+    font-family: "Switzer";
+    src: url("/fonts/switzer.ttf"), format("ttf");
+  }
+  @font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy.woff2"), format("woff2");
+  }
+}
+
+*{
+  scroll-behavior: smooth;
+}
