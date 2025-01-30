@@ -40,7 +40,7 @@ const Form = () => {
     <div id="Contact" className="lg:h-[90vh] md:h-[80vw] w-full flex justify-center items-center px-[5vw]">
       <div className="lg:h-[80vh] lg:w-[40%] md:h-[70vw] md:w-[70%] max-md:h-[80vh] sm:w-[80%] max-sm:w-full mx-auto p-4 bg-white shadow-md rounded-lg flex flex-col justify-evenly items-center">
         <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
-        {status && <p className="text-green-500">{status}</p>}
+        {status && <p className="text-green-600">{status}</p>}
         <form onSubmit={handleSubmit} className="space-y-4 lg:h-[50vh] md:h-[40vw] max-md:h-[50vh] flex flex-col justify-center gap-[1vw] w-full">
           <label className="flex flex-col">
             <span>Full Name</span>
